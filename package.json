@@ -1,0 +1,19 @@
+{
+  "name": "folio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakg709/folio.git"
+  },
+  "author": "Vinayak Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakg709/folio/issues"
+  },
+  "homepage": "https://github.com/vinayakg709/folio#readme"
+}
