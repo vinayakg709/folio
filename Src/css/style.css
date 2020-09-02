@@ -13,9 +13,9 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #22283f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -56,11 +56,12 @@ Main Components
   font-size: 2.4rem;
 }
 .cd-section:first-of-type > div {
-  background-color: #2b334f;
+  background-color: #ffffff;
+  color: #22283f;
 }
-.cd-section:first-of-type > div::before {
+/* .cd-section:first-of-type > div::before { */
   /* alert -> all scrolling effects are not visible on small devices */
-  content: 'Effects not visible on mobile!';
+  /* content: 'Effects not visible on mobile!';
   position: absolute;
   width: 100%;
   text-align: center;
@@ -70,7 +71,7 @@ Main Components
   font-size: 1.3rem;
   text-transform: uppercase;
   color: #6a7083;
-}
+} */
 .cd-section:nth-of-type(2) > div {
   background-color: #2e5367;
 }

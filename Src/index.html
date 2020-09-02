@@ -1,23 +1,95 @@
 <!doctype html>
 <html lang="en" class="no-js">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/nav.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/folio-style.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Vinayak Portfolio</title>
+
+	<title>Page Scroll Effects | CodyHouse</title>
 </head>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
-<body data-hijacking="on" data-animation="rotate">
+<body data-hijacking="on" data-animation="gallery">
 	<section class="cd-section visible">
 		<div>
-			<h2>Page Scroll Effects</h2>
+			<!-- <h2>Page Scroll Effects</h2> -->
+			<div style="background-color: white; height: 100vh;">
+				<div class="nav">
+					<input type="checkbox" id="nav-check">
+					<div class="nav-header">
+						<div class="nav-title">
+							<img src="./img/logo.png" alt="" srcset="" class="vglogo">
+						</div>
+					</div>
+					<div class="nav-btn">
+						<label for="nav-check">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+						<!-- <div id="nav-icon1">
+						<span></span>
+						<span></span>
+						<span></span>
+					  </div> -->
+					</div>
+
+					<div class="nav-links ml-auto mr-0 mt-3">
+						<!-- <a href="//github.io/jo_geek" target="_blank">Github</a>
+					  <a href="http://stackoverflow.com/users/4084003/" target="_blank">Stackoverflow</a> -->
+						<a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank" id="work">Work</a>
+						<a href="https://codepen.io/jo_Geek/" target="_blank">About</a>
+						<a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Contact</a>
+					</div>
+				</div>
+
+
+				<p class="text-center myself">Hi, I'm <span class="linear-wipe">Vinayak Gupta.</span></p>
+				<div class="sentence text-center mt-4">
+					<p>I'm a  </p>
+					<span> 
+						<div class="rotate">
+						<p><span>PRODUCT DESIGNER!</span></p>
+						<p><span>TROUBLE SHOOTER!</span></p>
+						<p><span>WEB DEVELOPER!</span></p>
+						</div>
+					</span>
+					
+				</div>
+				<div class="text-center subheadrole mx-auto mt-4">I believe in crafting thoughtful experiences and shoot user-centric
+					troubles through my designs.</div>
+				
+					<div class="scroll">
+						<a href="yourlink">
+							<div class="mouse">
+								<div class="wheel"></div>
+							</div>
+						</a>
+					</div>
+
+					<img src="./img/Oval.png" alt="" srcset="" class="oval">
+					<img src="./img/Oval Copy.png" alt="" srcset="" class="oval2">
+
+
+					</div>
+
+					
+
+
+			</div>
+
+
+
+
 		</div>
 	</section>
 
@@ -45,17 +117,17 @@
 		</div>
 	</section>
 
-	<!-- <nav>
+	<nav>
 		<ul class="cd-vertical-nav">
 			<li><a href="#0" class="cd-prev inactive">Next</a></li>
 			<li><a href="#0" class="cd-next">Prev</a></li>
 		</ul>
-	</nav>  -->
-	
-	<!-- .cd-vertical-nav -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/velocity.min.js"></script>
-<script src="js/velocity.ui.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+	</nav> <!-- .cd-vertical-nav -->
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/text-rotate.js"></script> <!-- Resource jQuery -->
 </body>
+
 </html>

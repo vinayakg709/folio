@@ -1,0 +1,139 @@
+.vglogo{
+    height: 40px;
+    width: auto;
+}
+
+.myself{
+    margin-top: 28vh;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+.myrole{
+    margin-top: 3vh;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.sentence > p {
+    margin-top: 0vh;
+    color: #2b2b2b;
+    font-size: 5rem;
+    font-weight: 600;
+
+  }
+
+  
+  .rotate{
+    font-size: 5rem;
+    font-weight: 600;
+
+  }
+  
+  .credit {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+
+  
+.linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #FFB86A 20%, #FFB86A 40%, #FFB86A 60%, #FFB86A 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 3s linear infinite;
+    
+  }
+
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .subheadrole{
+      width: 45vw;
+      font-size: 20px;
+      line-height: 160%;
+      font-weight: 500;
+      opacity: 0.5;
+
+  }
+
+  .oval{
+      position: absolute;
+      top: 8vh;
+      right: 0px;
+      height: 50vh;
+      width: auto;
+  }
+
+  .oval2{
+    position: absolute;
+    top: 50vh;
+    left: 0px;
+    height: 40vh;
+    width: auto;
+}
+
+
+
+  .scroll{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+.scroll .mouse{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border: 2px solid #2b2b2b;
+    border-radius: 20px;
+}
+.scroll .wheel{
+    width: 4px;
+    height: 4px;
+    top: 10px;
+    left: 50%;
+    position: absolute;
+    background: #2b2b2b;
+    display: block;
+    border-radius: 50%;
+    margin-left: -2px;
+    animation-name: scroll-wheel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll-wheel{
+    from{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    to{
+        transform: translate3d(0, 20px, 0);
+        opacity: 0;
+    }
+}
