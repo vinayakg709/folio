@@ -34,6 +34,6 @@ function textRotate(classSelector,animationTime,ease,intervalLength,color){
         },intervalLength);
     }
     
-    textRotate(".rotate",1,"ease",2000,"#F30A49");
+    textRotate(".rotate",1,"ease",2000,"#FF4646");
     
     

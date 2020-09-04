@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #ffffff;
   background-color: #22283f;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ Main Components
   color: #6a7083;
 } */
 .cd-section:nth-of-type(2) > div {
-  background-color: #2e5367;
+  background-color: #ffffff;
 }
 .cd-section:nth-of-type(3) > div {
   background-color: #267481;
