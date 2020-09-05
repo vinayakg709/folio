@@ -57,7 +57,7 @@ Main Components
 }
 .cd-section:first-of-type > div {
   background-color: #ffffff;
-  color: #22283f;
+  color: #2b2b2b;
 }
 /* .cd-section:first-of-type > div::before { */
   /* alert -> all scrolling effects are not visible on small devices */
