@@ -217,7 +217,7 @@
 
 
 .btn11:hover{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   color: #2b2b2b!important;
   /* font-weight: 500; */
 }
@@ -268,6 +268,33 @@ opacity:1;
      -moz-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
           transform: translateX(-100%);
+}
+
+.sec4{
+  background-color: white; 
+  height: 100vh; 
+  padding-top: 4%;
+  color: #2b2b2b;
+}
+
+.wofoimg{
+  height: 39vh;
+}
+
+.wofohead{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.wofodesc1{
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.wofodesc2{
+  font-size: 18px;
+  line-height: 130%;
 }
 
 
@@ -381,8 +408,9 @@ opacity:1;
 
   .vgfithead{
     text-align: center;
-    font-size: 25px;
-    margin-top: 5vh;
+    font-size: 22px;
+    margin: 5vh 10px 0vh 10px;
+  
   }
 
   .desc1{
