@@ -76,3 +76,58 @@
   transform: scale(1.6);
   -webkit-text-fill-color: #fff;
 }
+
+
+
+/* ------------------------------------ */
+
+@media (max-width:992px) {
+    .social-container {
+        width: 60vw;
+        margin:3vh auto 8vh auto;
+      }
+
+
+      .social-icons li {
+        margin: 0.5em;
+        font-size: 1.2em;
+      }
+
+      .social-icons i {
+        top: 18px;
+        left: 18px;
+      }
+
+      .social-icons a:before {
+        
+        width: 55px;
+        height: 55px;
+        
+      }
+}
+
+
+@media (max-width:426px) {
+    .social-container {
+        width: 95vw;
+        margin:3vh auto 8vh auto;
+      }
+
+
+      .social-icons li {
+        margin: 0.5em;
+        font-size: 1.2em;
+      }
+
+      .social-icons i {
+        top: 18px;
+        left: 18px;
+      }
+
+      .social-icons a:before {
+        
+        width: 55px;
+        height: 55px;
+        
+      }
+}
