@@ -172,7 +172,9 @@
   font-size: 40px;
   font-weight:600 ;
   line-height: 120%;
+
 }
+
 
 .desc1{
   margin-top: 2vh;
@@ -322,7 +324,7 @@ opacity:1;
 
 .blogtitle{
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .blogbody{
