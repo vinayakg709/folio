@@ -232,7 +232,7 @@ jQuery(document).ready(function($){
 		    	}
 		        break;
 		    case 'gallery':
-		    	animDuration = 1500;
+		    	animDuration = 900;
 		    	if( middleScroll ) {
 		    		animationTop = 'scaleDown.moveUp.scroll';
 		    		animationVisible = 'scaleUp.moveUp.scroll';

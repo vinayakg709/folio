@@ -429,7 +429,7 @@ var VanillaTilt = (function () {
       extendSettings(settings) {
         let defaultSettings = {
           reverse: false,
-          max: 15,
+          max: 10,
           startX: 0,
           startY: 0,
           perspective: 1000,
@@ -438,7 +438,7 @@ var VanillaTilt = (function () {
           speed: 300,
           transition: true,
           axis: null,
-          glare: false,
+          glare: true,
           "max-glare": 1,
           "glare-prerender": false,
           "full-page-listening": false,
