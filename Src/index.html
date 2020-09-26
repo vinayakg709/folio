@@ -51,12 +51,20 @@
 					  </div> -->
 					</div>
 
-					<div class="nav-links ml-auto mr-0">
+					<div class="nav-links ml-auto mr-0 fordesk">
 						<!-- <a href="//github.io/jo_geek" target="_blank">Github</a>
 					  	<a href="http://stackoverflow.com/users/4084003/" target="_blank">Stackoverflow</a> -->
 						<a onclick="work()" id="work">Work</a>
 						<a onclick="about()">About</a>
 						<a onclick="cont()" id="con">Contact</a>
+					</div>
+
+					<div class="nav-links ml-auto mr-0 formob">
+						<!-- <a href="//github.io/jo_geek" target="_blank">Github</a>
+					  	<a href="http://stackoverflow.com/users/4084003/" target="_blank">Stackoverflow</a> -->
+						<a href="#fithead" id="work">Work</a>
+						<a href="#about">About</a>
+						<a href="#cont" id="con">Contact</a>
 					</div>
 				</div>
 
@@ -110,7 +118,7 @@
 	<section class="cd-section">
 		<div>
 			<div class="container sec2">
-				<div class="row  align-items-center">
+				<div class="row  align-items-center" id="fithead">
 					<div class="col-md-6">
 						<a href="https://uxplanet.org/vg-fit-better-fitness-regime-experience-ui-ux-case-study-aec30dbff2a2" target="_blank">
 						<img src="./img/vgfitimg.png" alt="" srcset="" class="vgfitimg mx-auto" data-tilt >
@@ -118,7 +126,7 @@
 					</div>
 					<div class="col-md-6">
 
-						<div class="vgfithead" >
+						<div class="vgfithead"  >
 							VG-FIT, Better Fittness Regime Experience
 						</div>
 						<div class="desc1">
@@ -503,10 +511,20 @@
 					</div>
 
 					<div class="col-md-4 px-0">
-						<img src="./img/demo phone.png" alt="" class="visual visualmobile">
+						<!-- <img src="./img/demo phone.png" alt="" class="visual visualmobile"> -->
+						<video class="visual visualmobile" controls>
+							<source src="./img/intmob.mp4" type="video/mp4">
+							<!-- <source src="movie.ogg" type="video/ogg"> -->
+						  Your browser does not support the video tag.
+						  </video>
 					</div>
 					<div class="col-md-4 px-0 text-center">
-						<img src="./img/demo phone.png" alt="" class="visual visualmobile">
+						<!-- <img src="./img/demo phone.png" alt="" class="visual visualmobile"> -->
+						<video class="visual visualmobile" controls>
+							<source src="./img/intmob.mp4" type="video/mp4">
+							<!-- <source src="movie.ogg" type="video/ogg"> -->
+						  Your browser does not support the video tag.
+						  </video>
 					</div>
 				</div>
 
@@ -603,12 +621,12 @@
 
 	 <section class="cd-section" >
 		<div>
-			<div class="container sec2" id="about">
+			<div class="container sec2" >
 				<div class="row  align-items-center">
 					
 					<div class="col-md-6">
 
-						<div class="vgfithead abouthead" >
+						<div class="vgfithead abouthead" id="about">
 							Designer 👨‍🎨 | Developer 👨‍💻 | Maker 🤹‍♂️
 						</div>
 						<!-- <div class="desc1" style="opacity: 1 !important;">
@@ -645,13 +663,13 @@
 	</section>
 
 
-	<section class="cd-section">
+	<section class="cd-section" >
 		<div>
 			<div class="container sec2 footersection">
 				
-				<img src="./img/Oval.png" alt="" srcset="" class="oval">
-				<img src="./img/Oval Copy.png" alt="" srcset="" class="oval2">
-				<div class="connect">It's time to get connected!</div>
+				<img src="./img/Oval.png" alt="" srcset="" class="oval ovalmob">
+				<img src="./img/Oval Copy.png" alt="" srcset="" class="oval2 ovalmob">
+				<div class="connect" id="cont">It's time to get connected!</div>
 				<div class="jam">LET'S JAM!</div>
 				
 				<div class="social-container">
@@ -679,13 +697,14 @@
 							<span class="float-left"> Designed and Developed with ❤️ by Vinayak </span>
 							<span class="float-right copyright" ><i class="far fa-copyright"></i> Vinayak 2020 </span>
 							
-							
-
 						</div>
 
 					</div>
 					
 				</div>
+
+				<span class="text-center footmob"> Designed and Developed with ❤️ by Vinayak </span>
+
 
 				
 			
@@ -697,7 +716,7 @@
 
 
 
-	<nav>
+	<nav style="opacity: 0;">
 		<ul class="cd-vertical-nav">
 			<li ><a href="#0" class="cd-prev inactive" >Next</a></li>
 			<li><a href="#0" class="cd-next" id="nex">Prev</a></li>
