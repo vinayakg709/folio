@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vinayakg709/folio/issues"
   },
-  "homepage": "https://github.com/vinayakg709/folio#readme"
+  "homepage": "https://github.com/vinayakg709/folio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
