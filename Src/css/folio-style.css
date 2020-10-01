@@ -384,6 +384,32 @@ opacity:1;
 
 /* -------------------------------------------------------------------------- */
 
+@media (min-height: 800px) and (min-width: 1536px) {
+
+  .sec2{
+    padding-top: 10% !important;
+  }
+  
+  .vgfitimg{
+
+    height: 55vh;
+
+  }
+
+  .visual{
+    height: 34vh;
+  }
+
+  .blogimg{
+    height: 22vh;
+  }
+
+  
+
+
+}
+
+
 @media (max-width:1050px) {
 
   .ovalmob{
